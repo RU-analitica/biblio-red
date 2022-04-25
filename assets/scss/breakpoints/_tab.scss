@@ -1,0 +1,35 @@
+@media (min-width: $tab) {
+    .navbar {
+        &-brand-container {
+            padding: 10px 0;
+        }
+        &-brand {
+            margin: 0 auto;
+            padding: 10px 5px;
+            margin: 10px;
+        }
+        &-nav {
+            margin-left: 25px;
+        }
+    }
+    .logo {
+        width: 200px;
+    }
+    .search {
+        &-form {
+            width: 650px;
+            & input {
+                border-radius: 7px !important;
+            }
+        }
+    }
+    .search-results {
+        width: 680px;
+        padding: 50px;
+    }
+    .pdf {
+        &-img {
+            width: 700px;
+        }
+    }
+}
