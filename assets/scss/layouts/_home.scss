@@ -42,17 +42,21 @@
     margin: 10px 0;
     padding: 0 25px;
     &-form {
-        padding: 0 8px;
         border-radius: 7px;
-        width: 285px;
+        width: 100%;
         & input {
-            border-radius: 7px !important;
+            height: 44px;
+            padding-inline-start: 30px;
+            border-radius: calc(0.5 * 44px);
+            background-color: rgb(255, 255, 255);
+            color: rgb(0,0,0);
         }
     }
 }
 
 .results {
     padding: 0;
+    padding: 0 25px;
 }
 
 .search-results {

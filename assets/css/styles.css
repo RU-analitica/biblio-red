@@ -68,16 +68,21 @@ html * {
   padding: 0 25px;
 }
 .search-form {
-  padding: 0 8px;
   border-radius: 7px;
-  width: 285px;
+  width: 100%;
 }
 .search-form input {
-  border-radius: 7px !important;
+  height: 44px;
+  -webkit-padding-start: 30px;
+          padding-inline-start: 30px;
+  border-radius: calc(0.5 * 44px);
+  background-color: white;
+  color: black;
 }
 
 .results {
   padding: 0;
+  padding: 0 25px;
 }
 
 .search-results {
@@ -173,9 +178,6 @@ html * {
 
   .search-form {
     width: 650px;
-  }
-  .search-form input {
-    border-radius: 7px !important;
   }
 
   .search-results {
