@@ -12,8 +12,25 @@
             margin-left: 25px;
         }
     }
+    .nav-link{
+        font-weight: 500;
+        letter-spacing: 0.01rem;
+        margin: 0 5px;
+        &:hover{
+            font-weight: 600;
+            transition: 0.3s;
+        }
+    }
     .logo {
         width: 200px;
+    }
+    .main{
+        &-logo{
+            & img{
+                width: 320px;
+                padding: 15px 0;
+            }
+        }
     }
     .search {
         &-form {

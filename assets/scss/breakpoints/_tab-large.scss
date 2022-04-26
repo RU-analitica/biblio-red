@@ -1,4 +1,11 @@
 @media (min-width: $tab-large) {
+    .navbar{
+        &-nav{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
     .pdf {
         &-img {
             width: 940px;

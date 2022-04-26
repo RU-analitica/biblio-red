@@ -4,4 +4,12 @@
             width: 1200px;
         }
     }
+    .main{
+        &-logo{
+            & img{
+                width: 400px;
+                padding: 15px 0;
+            }
+        }
+    }
 }
