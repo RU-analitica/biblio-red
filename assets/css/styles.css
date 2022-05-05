@@ -209,6 +209,10 @@ html * {
     width: 1200px;
   }
 
+  .search-results {
+    width: 850px;
+  }
+
   .main-logo img {
     width: 400px;
     padding: 15px 0;
