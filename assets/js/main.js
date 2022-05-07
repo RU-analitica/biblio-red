@@ -186,8 +186,8 @@ const filter = () => {
 
 }
 
+
 button.addEventListener('click', filter)
 form.addEventListener('keyup', filter)
-
 
 filter()
