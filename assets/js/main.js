@@ -1,4 +1,3 @@
-// const didYouMean = require("didyoumean")
 const form = document.querySelector('#searchBar')
 const button = document.querySelector('#searchButton')
 const results = document.querySelector('.results')
@@ -50,17 +49,17 @@ const files = [{
     },
     {
         title: 'Juego de gemas - Promotor',
-        content: '​juego de gemas promotoraccede desde al módulo de juego de gemas.¡gana grandes premios de la bóveda!promotores son las figuras responsables de darle ritmo al juego; con su interacción, lograrán que los activadores e impulsores tengan en sus metas de actividad diaria cumplir con su rol. participan: líder regional y líder territorial.marca el ritmo de los activadores de tu territorio o región.gana gemas si los activadores de tu región o territorio alcanzan la meta semanal que aparece en la pantalla del juego. son metas distintas para cada región o territorio.canjea por grandes premios los días juevesentra diario a ver los premios, traza la ruta para ganar y motiva a los activadores.si tu región o territorio es la que más activó, ganarás increíbles premios por etapa, ¡espera más información!.tus gemas no caducan durante la vigencia del juego ¡para que acumules más!¿estás listo para divertirte? nosotros también, así que, en sus marcas, ¡promueve, impulsa y activa! boveda podrás entrar a ella todos los días.canjeos recuerda, sólo los días jueves puedes entrar a canjear.',
+        content: '​juego de gemas promotor accede desde al módulo de juego de gemas.¡gana grandes premios de la boveda promotores son las figuras responsables de darle ritmo al juego; con su interacción, lograrán que los activadores e impulsores tengan en sus metas de actividad diaria cumplir con su rol. participan: líder regional y líder territorial.marca el ritmo de los activadores de tu territorio o región.gana gemas si los activadores de tu región o territorio alcanzan la meta semanal que aparece en la pantalla del juego. son metas distintas para cada región o territorio.canjea por grandes premios los días juevesentra diario a ver los premios, traza la ruta para ganar y motiva a los activadores.si tu región o territorio es la que más activó, ganarás increíbles premios por etapa, ¡espera más información!.tus gemas no caducan durante la vigencia del juego ¡para que acumules más!¿estás listo para divertirte? nosotros también, así que, en sus marcas, ¡promueve, impulsa y activa! boveda podrás entrar a ella todos los días.canjeos recuerda, sólo los días jueves puedes entrar a canjear mis gemas .',
         index: '../../../pages/bazsuperapp/gemasPromotor.html'
     },
     {
         title: 'Juego de gemas - Impulsor',
-        content: 'juego de gemas impulsor Accede desde al módulo de juego de gemas IMPULSORES Son los principales motivadores de los Activadores. Su función consiste en mandarles Clientes que no hayan descargado baz súperapp. Participan: Gerente Líder Punto de Venta, Líder Financiero, Líder Comercial, Líder Operativo, Cajero Líder, Cajero Supervisor, Cajero Senior, Cajero Universal, Cajero de Tiempo Parcial y Asesor de Comercial.Motiva a tu equipo a activar baz súperapp en el celular de los Clientes.baz súperapp preguntará si alguien ayudó a nuestro Cliente.Verifica que el Activador proporcione su número de Colaborador y nuestro Cliente lo ingrese correctamente para que la activación cuenteEntre más Clientes refieras, más oportunidades tendrás de ganar gemas y canjearlas por increíbles premios los jueves.Gana 5 gemas (o 3 si eres tiempo parcial) a la semana si tu Punto de Venta logra la meta que aparece en la pantalla del juego. Cada Punto de Venta tiene una meta distinta.¡Recuerda! Si tu Punto de Venta es el que más activó, ganarás un increíble premio por etapa, ¡espera más información!BÓVEDA Podrás entrar a ella todos los días.CANJEOS Recuerda, sólo los días jueves puedes entrar a canjear.',
+        content: 'juego de gemas impulsor Accede desde al módulo de juego de gemas IMPULSORES Son los principales motivadores de los Activadores. Su función consiste en mandarles Clientes que no hayan descargado baz súperapp. Participan: Gerente Líder Punto de Venta, Líder Financiero, Líder Comercial, Líder Operativo, Cajero Líder, Cajero Supervisor, Cajero Senior, Cajero Universal, Cajero de Tiempo Parcial y Asesor de Comercial.Motiva a tu equipo a activar baz súperapp en el celular de los Clientes.baz súperapp preguntará si alguien ayudó a nuestro Cliente.Verifica que el Activador proporcione su número de Colaborador y nuestro Cliente lo ingrese correctamente para que la activación cuenteEntre más Clientes refieras, más oportunidades tendrás de ganar gemas y canjearlas por increíbles premios los jueves.Gana 5 gemas (o 3 si eres tiempo parcial) a la semana si tu Punto de Venta logra la meta que aparece en la pantalla del juego. Cada Punto de Venta tiene una meta distinta.¡Recuerda! Si tu Punto de Venta es el que más activó, ganarás un increíble premio por etapa, ¡espera más información!BÓVEDA Podrás entrar a ella todos los días.CANJEOS Recuerda, sólo los días jueves puedes entrar a canjear mis gemas .',
         index: '../../../pages/bazsuperapp/gemasImpulsor.html'
     },
     {
         title: 'Juego de gemas - Activador',
-        content: '​juego de gemas activador accede desde al módulo de juego de gemas.activadores son los únicos encargados de activar baz súperapp en los celulares de los clientes. participan: asesor de crédito y asesor de servicios financieros.ten claro tu número de colaborador red única.descarga la baz súperapp en el celular de tus clientes, llena el formulario con sus datos y déjala lista para usarla.baz súperapp preguntará si alguien ayudó a nuestro cliente.dale tu número y en ese instante, ¡la activación te cuenta a ti!por cada 5 personas que actives diario, ganarás una gema, ¡en múltiplos de 5!si logras al menos 25 activaciones en la semana, sin importar los días en que las hiciste, te completarán las gemas que te falten en múltiplos de 5, ¡tus activaciones no se pierden!además, todas tus activaciones cuentan para el premio por etapa y la liga de oro, ¡espera más información!bóveda podrás entrar a ella todos los días.canjeos recuerda, sólo los días jueves puedes entrar a canjear.¡vamos por todo, todos! activa y, gana con baz súperapp.',
+        content: '​juego de gemas activador accede desde al módulo de juego de gemas.activadores son los únicos encargados de activar baz súperapp en los celulares de los clientes. participan: asesor de crédito y asesor de servicios financieros.ten claro tu número de colaborador red única.descarga la baz súperapp en el celular de tus clientes, llena el formulario con sus datos y déjala lista para usarla.baz súperapp preguntará si alguien ayudó a nuestro cliente.dale tu número y en ese instante, ¡la activación te cuenta a ti!por cada 5 personas que actives diario, ganarás una gema, ¡en múltiplos de 5!si logras al menos 25 activaciones en la semana, sin importar los días en que las hiciste, te completarán las gemas que te falten en múltiplos de 5, ¡tus activaciones no se pierden!además, todas tus activaciones cuentan para el premio por etapa y la liga de oro, ¡espera más información!bóveda podrás entrar a ella todos los días.canjeos recuerda, sólo los días jueves puedes entrar a canjear.¡vamos por todo, todos! activa y, gana con baz súperapp mis gemas .',
         index: '../../../pages/bazsuperapp/gemasActivador.html'
     },
     {
@@ -118,12 +117,49 @@ const files = [{
         content: 'Ingresa al ranking en 3 pasos, ingresa al portal RU, da clic en excelencia en red, consulta tu posición. como veo mi posicion en el ranking , mi lugar en el ranking, mi progreso excelencia posicion en el ranking?',
         index: '../../../pages/excelenciaenred/rankingExcelencia.html'
     },
+    {
+        title: 'Indicadores de excelencia - CAJERO',
+        content: 'Cajeros, se considera la transaccionalidad esperada (ATM + RAP* + Ventanilla) de la semana de acuerdo con el tipo de punto de venta en el que estes. Recepto de abonos y pagos. Indicadores considerados para cada posicion: cajero universal cajero universal de tiempo completo cajero universal de tiempo parcial cumplimiento de transaccionalidad esperada de acuerdo al tipo de punto de venta y puesto cumplimiento de operacion impecable un maximo de eventos por faltantes cheques mal operados servicios de cajen mal operados porcentaje de transacciones digitales del punto de venta por arriba de un minimo, cuales son mis indicadores? cuales son los indicadores de excelencia de un cajero? indicadores excelencia en red cajero, indicadores de excelencia en red del cajero indicadores de cajero en excelencia en red',
+        index: '../../../pages/excelenciaenred/cajero.html'
+    },
+    {
+        title: 'Indicadores de excelencia - ASESOR',
+        content: 'Las semanas de antiguedad en tu puesto actual, tipo de punto de venta en el que estes, indicadores considerados para cada posicion, asesor de credito y servicios financieros colocacion cartera vigente se considera un maximo de pase de cartera para poder participar asesor de servicios financieros monto de apertura guardadito debito negocio y somos de clientes nuevos a cierre de semana afiliaciones de afore contar con un minimo de portabilidades al trimestre haber realizado al menos una operacion de afiliaciones de afore a la semana durante 11 semanas haber efectuado minimo una operacion de portabilidades de nomina a la semana durante 5 semanas asesor de comercio ventas a credito elektra ventas totales cuales son mis indicadores como asesor? indicadores de excelencia de asesores indicadores de excelencia de asesor, indicadores de excelencia en red asesor indicadores de excelencia en red del asesor',
+        index: '../../../pages/excelenciaenred/asesor.html'
+    },
+    {
+        title: 'Indicadores de excelencia - LIDER',
+        content: 'Se evalua el lugar promedio que ocupan los colaboradores del equipo de trabajo indicadores considerados para cada posicion gerente lider de punto de venta ranking de colaboradores del pdv lider de servicios financieros ranking de asesores de credito del pdv ranking de asesores de servicios financieros del pdv lider de comercio ranking de asesores de comercio del pdv lider de operaciones ranking de cajeros incluyendo al cajero supervisor operacion impecable se considera un maximo de eventos por faltantes cheques mal operados y servicios de canje mal operados porcentaje de transacciones digitales del pdv arriba del minimo cajero supervisor ranking de cajeros operacion impecable se considera un maximo de eventos por faltantes cheques mal operados y servicio de canje mal operados porcentaje de transacciones digitales del pdv arriba del minimo para todos los puestos de liseres se considera un opn de clientes minimo para poder participar cuales son los indicadores de excelencia en red del lider indicadores de excelencia del lider indicadores de excelencia en red de los lideres indicadores de excelencia en red del lider cuales son mis indicadores de excelencia en red',
+        index: '../../../pages/excelenciaenred/lider.html'
+    },
+    {
+        title: '¿Qué es excelencia en red? - Excelencia en Red',
+        content: 'Que es excelencia en red? programa que reconoce y premia a los mejores por sus resultados y a quienes viven con pasion nuestra cultura. Que puedo ganar en excelencia en red? que puedo ganar en excelencia? Beneficios economicos, momentos de reconocimiento, dias de descanso adicionales, entre otros beneficios emocionales.',
+        index: '../../../pages/excelenciaenred/ganarExcelencia2.html'
+    },
+    {
+        title: 'Ritual - Excelencia en Red',
+        content: 'Datos generales del ritual - escenarios. Participantes menos de 15, participantes 15 - 40, participantes mas de 40, como hacer el ritual de excelencia en red? en que consiste el ritual de excelencia en red? ritual de excelencia en red, cuando aplica el ritual de excelencia en red? kits de reconocimiento.',
+        index: '../../../pages/excelenciaenred/ritual.html'
+    },
+    {
+        title: 'Guía de celebración - Excelencia en Red',
+        content: 'guia para tener una celebracion de excelencia. lider territorial despliega la estrategia lider de gestion al colaborador asegura el protocolo y la calidad del ritual lider regional ejecuta los rituales genrete lider punto de venta solicita y hace uso del presupuesto que debo hacer para el ritual de excelencia en red? como llevar el ritual de excelencia en red? que hago para llevar el ritual de excelencia en red indicaciones ritual excelencia en red',
+        index: '../../../pages/excelenciaenred/guia.html'
+    },
+    {
+        title: '¿Qué hacer y qué no debes hacer? - Excelencia en Red',
+        content: 'Estos son los pasos que debes hacer y no hacer para reconocer la excelencia en red generar un ambiente cordial de reconocimiento para el ritual incentivar el reconocimiento de los ganadores, que debo hacer que no debo hacer que hacer',
+        index: '../../../pages/excelenciaenred/todo.html'
+    }
 ]
+
+const list = ['gemas', 'dinero', 'retiro', 'cancelación', 'cancelacion', 'red', 'pagos', 'ofertas', 'noticias', 'negocio', 'música', 'películas', 'impulsor', 'promotor', 'activador', 'QR', 'donaciones', 'superapp', 'excelencia', 'ranking', 'indicadores', 'celebración']
+
 
 const filter = () => {
     results.innerHTML = '';
     const string = form.value.toLowerCase()
-
     for (let file of files) {
         let content = file.content.toLowerCase()
         if (content.indexOf(string) !== -1) {
@@ -135,7 +171,13 @@ const filter = () => {
         }
     }
     if (results.innerHTML === '') {
-        results.innerHTML = `<li>No se encontraron resultados</li>`
+        if(didYouMean(string, list) != null){
+            results.innerHTML = `<li style="list-style: none;">Quizás quisiste decir <span style='font-style: italic; text-transform: uppercase; font-weight: 800;'>${ didYouMean(string, list)} </span>.</li>`
+        }
+        else{
+            results.innerHTML = `<li style="list-style: none;">No se encontraron resultados de busqueda. <br> <br>
+                                    Por favor, reformule su consulta o envie un correo a <a style="font-weight: 700; font-style: italic;" href="mailto:zeusru@elektra.com.mx">zeusru@elektra.com.mx</a> para que el contenido solicitado sea añadido.</li>`
+        }
     }
 
     if (form.value === '') {
@@ -147,5 +189,5 @@ const filter = () => {
 button.addEventListener('click', filter)
 form.addEventListener('keyup', filter)
 
-filter()
 
+filter()
