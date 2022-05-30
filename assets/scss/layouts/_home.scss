@@ -46,6 +46,7 @@
         width: 100%;
         & input {
             height: 44px;
+            border: 1px solid #afafaf;
             padding-inline-start: 30px;
             border-radius: calc(0.5 * 44px);
             background-color: rgb(255, 255, 255);

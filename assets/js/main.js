@@ -2,7 +2,8 @@ const form = document.querySelector('#searchBar')
 const button = document.querySelector('#searchButton')
 const results = document.querySelector('.results')
 
-const files = [{
+const files = [
+    {
         title: 'Baz Super App',
         content: '​¿que es baz? es la unica superapp en mexico con todo lo que necesitas en un solo lugar, desde música, compras, noticias, hasta el control de tu negocio y tu dinero. que puede hacer el cliente? descargar la app de forma gratuita. enviar y recibir dinero de manera segura y sencilla (incluso por chat y a personas que se encuentren cerca) Hacer compras con un solo click. solicitar créditos y pagar servicios. escuchar música, ver la tele, películas y enterarse de las noticias de actualidad comunicarse en una red social y ¡mucho más! todo en un solo lugar ¿tiene algún costo instalar baz? no tiene costo alguno. es seguro utilizar la súperapp? sí, es totalmente seguro; baz cuenta con todas las medidas de seguridad y nuestra súperapp está respaldada por play Store y app store. ¿cuanto tiempo tarda en que un usuario se dé de alta? Si ya usa la app de banco azteca, el proceso es muy rapido, casi instantaneo. Si es un cliente nuevo, le toma de 3 a 5 minutos maximo ¡por qué la súperapp solicita datos personales? Solicitamos datos personales y domicilio para poder generar una cuenta con la que el cliente podrá realizar todas sus compras y operaciones financieras dentro de baz. Los datos son almacenados con los más altos y estrictos estánderes de seguridad.¿Cómo puedo aprender más de baz súperapp? Continúa aprendiendo sobre esta funcionalidad consultando tu plan de capacitación. ¡Es la súperapp con todo!',
         index: '../../../pages/bazsuperapp/bazSuperapp.html'
@@ -151,15 +152,31 @@ const files = [{
         title: '¿Qué hacer y qué no debes hacer? - Excelencia en Red',
         content: 'Estos son los pasos que debes hacer y no hacer para reconocer la excelencia en red generar un ambiente cordial de reconocimiento para el ritual incentivar el reconocimiento de los ganadores, que debo hacer que no debo hacer que hacer',
         index: '../../../pages/excelenciaenred/todo.html'
+    },
+    {
+        title: 'Conoce más de tu Samsung Galaxy Tab - SAC',
+        content: 'Conoce más de tu Samsung Galaxy Tab Active Pro y cómo le darás uso a tu herramienta SAC. ofrecele a tu ciente la pluma s pen que viene integrada en tu tableta cuando el sac le solicite su firma quiosco sac sera la pantalla de bienvenida de la tableta y desde ahi podras ingresar a las aplicaciones panes de configuraciones conexion de red.',
+        index: '../../../pages/sac/galaxytab.html'
+    },
+    {
+        title: 'Manual de usuario Galaxy Tab - SAC',
+        content: 'Toma en cuenta que la samsung tab tiene partes en especifico que debes cuidar, conocelas y explota su potencial. frontal del equipo posterior del equipo concoe el s pen guardar el s pen como guardar el s pen donde guardar el s pen como colocar la funda protectora a la galaxy tab como extraer la funda protectora a la galaxy tab lector watson mini quiosco sac panel de aplicaciones seccion de configuraciones conexiones de red dispositivos android permisos sac bienvenida sac comunicado para otorgar permiso a la plaicacion sac ingreso al sistema de asesoramiento al cliente sac autenticacion sac autenticacion de clientes autenticacion de empleados',
+        index: '../../../pages/sac/manual.html'
+    },
+    {
+        title: '¿Qué es SAC? - SAC',
+        content: 'Sistema de acompañamiento al cliente nos permitira operar nuestros puntos de venta digitalmente con alta eficacia y eficiencia a traves de cualquier dispositivo. 3 pilares pilar 1 yo pilar 2 mis clientes pilar 3 mis herramientas que es sac para que sirve sac que es sac? para que sirve sac? que puedo hacer en sac? cuales son los 3 pilares de sac?',
+        index: '../../../pages/sac/sac.html'
     }
 ]
 
 const list = ['gemas', 'dinero', 'retiro', 'cancelación', 'cancelacion', 'red', 'pagos', 'ofertas', 'noticias', 'negocio', 'música', 'películas', 'impulsor', 'promotor', 'activador', 'QR', 'donaciones', 'superapp', 'excelencia', 'ranking', 'indicadores', 'celebración']
-
+const cachedinputs = []
 
 const filter = () => {
     results.innerHTML = '';
     const string = form.value.toLowerCase()
+    cachedinputs.push(string)
     for (let file of files) {
         let content = file.content.toLowerCase()
         if (content.indexOf(string) !== -1) {
@@ -185,7 +202,6 @@ const filter = () => {
     }
 
 }
-
 
 button.addEventListener('click', filter)
 form.addEventListener('keyup', filter)

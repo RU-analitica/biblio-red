@@ -46,4 +46,12 @@
             width: 700px;
         }
     }
+    .dir{
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
 }
