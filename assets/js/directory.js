@@ -1575,11 +1575,11 @@ const filter = () => {
                 Territorio: ${contact.territory} <br> Región: ${contact.region}
             </div>
             <div class="card-body">
-            <h5 class="card-title mb-3">${contact.eco} ${contact.ecoDesc}</h5>
-            <p class="card-text"><span class="sp-text">Gerente Líder PDV:</span> ${contact.manager} <br>
-            <span class="sp-text">Teléfono: </span>:<a href="tel:+${contact.managerPhone}"> ${contact.managerPhone}</a></p>
-            <p class="card-text"><span class="sp-text">Líder Comercial:</span> ${contact.leader} <br>
-            <span class="sp-text">Teléfono: </span><a href="tel:${contact.leaderPhone}">${contact.leaderPhone}</a></p>
+                <h5 class="card-title mb-3">${contact.eco} ${contact.ecoDesc}</h5>
+                <p class="card-text"><span class="sp-text">Gerente Líder PDV:</span> ${contact.manager} <br>
+                <span class="sp-text">Teléfono: </span>:<a href="tel:+${contact.managerPhone}"> ${contact.managerPhone}</a></p>
+                <p class="card-text"><span class="sp-text">Líder Comercial:</span> ${contact.leader} <br>
+                <span class="sp-text">Teléfono: </span><a href="tel:${contact.leaderPhone}">${contact.leaderPhone}</a></p>
             </div>
             `
             results.innerHTML += html
