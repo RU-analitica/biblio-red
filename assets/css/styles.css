@@ -28,10 +28,10 @@ html * {
   display: grid;
   -ms-grid-columns: 1fr 1rem 1fr 1rem 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 7rem 6rem 7rem 6rem 7rem 6rem 7rem 6rem 7rem;
+  -ms-grid-rows: 7rem 8rem 7rem 8rem 7rem 8rem 7rem 8rem 7rem;
   grid-template-rows: 7rem 7rem 7rem 7rem 7rem;
       grid-template-areas: "app app app";
-  grid-gap: 6rem 1rem;
+  grid-gap: 8rem 1rem;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
