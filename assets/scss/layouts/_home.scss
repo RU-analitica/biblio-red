@@ -5,23 +5,24 @@
         background-size: contain;
         background-repeat: no-repeat;
         &-container {
-            padding: 16rem 2rem 0 2rem;
+            padding: 17rem .8rem 0 .8rem;
             width: 100%;
             height: 100%;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 7rem 7rem 7rem 7rem 7rem;
             grid-template-areas: "app app app";
-            grid-gap: 5.4rem 1rem;
+            grid-gap: 5.7rem 1rem;
             justify-items: center;
             align-items: center;
         }
         &-app {
+            border: 1px solid red;
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 6rem;
-            height: 6rem;
+            width: 7rem;
+            height: 7rem;
             text-decoration: none;
             color: rgb(26, 26, 26);
             &-img {
@@ -46,7 +47,16 @@
             }
         }
     }
-    
+
+    @media screen and(min-width: $ld){
+        .appbox {
+            &-app {
+                width: 7.5rem;
+                height: 7.5rem;
+            }
+        }
+    }
+
     @media screen and(min-width: $tab) {
         .appbox {
             background-image: url('./images/bg-tab.png');
@@ -55,8 +65,8 @@
                 grid-gap: 8rem 1rem;
             }
             &-app {
-                width: 7rem;
-                height: 7rem;
+                width: 8rem;
+                height: 8rem;
                 text-decoration: none;
                 color: rgb(26, 26, 26);
                 &-desc {
