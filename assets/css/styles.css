@@ -48,8 +48,8 @@ html * {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 7rem;
-  height: 7rem;
+  width: 6.5rem;
+  height: 6.5rem;
   text-decoration: none;
   color: rgb(26, 26, 26);
 }
@@ -70,7 +70,7 @@ html * {
   padding: 2px 0;
   width: inherit;
   height: inherit;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: rgb(26, 26, 26);
   text-align: center;
   overflow: hidden;
@@ -78,8 +78,8 @@ html * {
 
 @media screen and (min-width: 424px) {
   .appbox-app {
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 7rem;
+    height: 7rem;
   }
 }
 @media screen and (min-width: 767px) {
